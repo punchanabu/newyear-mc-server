@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: minecraft-config
+data:
+  server.properties: |
+    difficulty=normal
+    gamemode=survival
+    max-players=20
+    motd=\u00A7b\u2728 Winpin's Minecraft Server \u2728
+    white-list=false
+    enable-command-block=true
+    spawn-protection=0
